@@ -265,12 +265,13 @@ h3 {
   margin: 0;
   color: #1d5d88;
   font-family: "Noto Serif", Georgia, serif;
-  letter-spacing: 4px;
+  letter-spacing: 0.1px;
   font-weight: 500;
 }
 
 h1 {
-  line-height: 1.08;
+  font-size: clamp(1.6rem, 5.8vw, 3.8rem);
+  line-height: 1.12;
   margin-top: 0.5rem;
 }
 
@@ -869,7 +870,6 @@ select:focus {
     transform: none;
   }
 }
-
 
 
 
